@@ -1768,6 +1768,11 @@ input, select, textarea {
       display: inline-block;
       position: relative;
 		}
+		@media screen and (max-width: 700px) {
+			#Ariel {
+				margin-right: 1em;
+			}	
+		}
 /* Section/Article */
 
 	section.special, article.special {
