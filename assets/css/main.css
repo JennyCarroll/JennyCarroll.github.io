@@ -273,6 +273,7 @@ input, select, textarea {
 	.symbol-heading {
 		font-size: large;
 		color: #787878;
+		margin: 0;
 	}
 	@media screen and (max-width: 646px) {
 		.symbol-heading {
