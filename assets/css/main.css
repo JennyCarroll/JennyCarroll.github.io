@@ -267,7 +267,7 @@ input, select, textarea {
 		}
 		tr {
 			page-break-inside: initial;
-			display: block;
+			/* display: block; */
 	}
 	}
 	.symbol-heading {
