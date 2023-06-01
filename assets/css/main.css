@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -239,6 +240,45 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.symbol {
+		width: 48px!important;
+		height:48px!important;
+	}
+	@media screen and (max-width: 657px) {
+		.symbol {
+			width: 35px!important;
+			height:35px!important;
+		}
+	}
+	@media screen and (max-width: 646px) {
+		.symbol {
+			width: 35px!important;
+			height:35px!important;
+			word-wrap: break-word;
+		}
+	}
+	@media screen and (max-width: 559px) {
+		.symbol {
+			width: 30px!important;
+			height:30px!important;
+			word-wrap: break-word;
+		}
+		tr {
+			page-break-inside: initial;
+			display: block;
+	}
+	}
+	.symbol-heading {
+		font-size: large;
+		color: #787878;
+	}
+	@media screen and (max-width: 646px) {
+		.symbol-heading {
+			font-size: medium;
+			font-weight: bolder;
+		}
 	}
 
 /* Container */
