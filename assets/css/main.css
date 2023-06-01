@@ -269,11 +269,16 @@ input, select, textarea {
 			page-break-inside: initial;
 			/* display: block; */
 	}
+	  td {
+			vertical-align: middle;
+		}
 	}
 	.symbol-heading {
 		font-size: large;
 		color: #787878;
 		margin: 0;
+		line-height: 100%;
+		text-align: center;
 	}
 	@media screen and (max-width: 646px) {
 		.symbol-heading {
